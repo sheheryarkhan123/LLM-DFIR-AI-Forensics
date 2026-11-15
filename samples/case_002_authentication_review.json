@@ -1,0 +1,137 @@
+[
+  {
+    "timestamp": "2026-11-13T14:00:00Z",
+    "agent": {
+      "id": "101",
+      "name": "WIN11-DFIR-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4625",
+          "systemTime": "2026-11-13T14:00:00Z",
+          "eventRecordID": "22001",
+          "computer": "WIN11-DFIR-LAB",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user",
+          "ipAddress": "198.51.100.42",
+          "logonType": "3"
+        }
+      }
+    },
+    "rule": {
+      "id": "LAB-4625",
+      "description": "[SYNTHETIC] Windows Security 4625: fictional exercise event"
+    }
+  },
+  {
+    "timestamp": "2026-11-13T14:00:45Z",
+    "agent": {
+      "id": "101",
+      "name": "WIN11-DFIR-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4625",
+          "systemTime": "2026-11-13T14:00:45Z",
+          "eventRecordID": "22002",
+          "computer": "WIN11-DFIR-LAB",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user",
+          "ipAddress": "198.51.100.42",
+          "logonType": "3"
+        }
+      }
+    },
+    "rule": {
+      "id": "LAB-4625",
+      "description": "[SYNTHETIC] Windows Security 4625: fictional exercise event"
+    }
+  },
+  {
+    "timestamp": "2026-11-13T14:01:30Z",
+    "agent": {
+      "id": "101",
+      "name": "WIN11-DFIR-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4625",
+          "systemTime": "2026-11-13T14:01:30Z",
+          "eventRecordID": "22003",
+          "computer": "WIN11-DFIR-LAB",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "analyst-test",
+          "ipAddress": "198.51.100.42",
+          "logonType": "3"
+        }
+      }
+    },
+    "rule": {
+      "id": "LAB-4625",
+      "description": "[SYNTHETIC] Windows Security 4625: fictional exercise event"
+    }
+  },
+  {
+    "timestamp": "2026-11-13T14:02:00Z",
+    "agent": {
+      "id": "101",
+      "name": "WIN11-DFIR-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4625",
+          "systemTime": "2026-11-13T14:02:00Z",
+          "eventRecordID": "22004",
+          "computer": "WIN11-DFIR-LAB",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user",
+          "ipAddress": "198.51.100.42",
+          "logonType": "3"
+        }
+      }
+    },
+    "rule": {
+      "id": "LAB-4625",
+      "description": "[SYNTHETIC] Windows Security 4625: fictional exercise event"
+    }
+  },
+  {
+    "timestamp": "2026-11-13T14:04:00Z",
+    "agent": {
+      "id": "101",
+      "name": "WIN11-DFIR-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4624",
+          "systemTime": "2026-11-13T14:04:00Z",
+          "eventRecordID": "22005",
+          "computer": "WIN11-DFIR-LAB",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user",
+          "ipAddress": "198.51.100.42",
+          "logonType": "3"
+        }
+      }
+    },
+    "rule": {
+      "id": "LAB-4624",
+      "description": "[SYNTHETIC] Windows Security 4624: fictional exercise event"
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "timestamp": "2026-11-15T10:10:00Z",
+    "agent": {
+      "name": "WIN11-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4625"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user"
+        }
+      }
+    },
+    "rule": {
+      "description": "Synthetic failed logon"
+    }
+  },
+  {
+    "timestamp": "2026-11-15T10:11:00Z",
+    "agent": {
+      "name": "WIN11-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4624"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user"
+        }
+      }
+    },
+    "rule": {
+      "description": "Synthetic successful logon"
+    }
+  },
+  {
+    "timestamp": "2026-11-15T10:12:00Z",
+    "agent": {
+      "name": "WIN11-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4720"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user"
+        }
+      }
+    },
+    "rule": {
+      "description": "Synthetic account creation"
+    }
+  },
+  {
+    "timestamp": "2026-11-15T10:13:00Z",
+    "agent": {
+      "name": "WIN11-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4732"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user"
+        }
+      }
+    },
+    "rule": {
+      "description": "Synthetic local group membership change"
+    }
+  },
+  {
+    "timestamp": "2026-11-15T10:14:00Z",
+    "agent": {
+      "name": "WIN11-LAB"
+    },
+    "data": {
+      "win": {
+        "system": {
+          "eventID": "4698"
+        },
+        "eventdata": {
+          "targetUserName": "lab-user"
+        }
+      }
+    },
+    "rule": {
+      "description": "Synthetic scheduled task creation"
+    }
+  }
+]
